@@ -41,7 +41,7 @@ Arquivo disponível em: http://www.mtecbo.gov.br/cbosite/pages/pesquisas/BuscaPo
 Arquivo disponível em: https://www.ibge.gov.br/explica/codigos-dos-municipios.php
 
 
-# Fase 1 - Ingestão do dadsos
+# Fase 1 - Ingestão do dados
 
 
 
