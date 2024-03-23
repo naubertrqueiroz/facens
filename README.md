@@ -174,7 +174,7 @@ Agora chegamos na nossa etapa de realizar nosso processamento de dados, com Apac
 
 Abaixo temos nosso Modelo Entidade Relacionamento(MER):
 
-![MER](images/mer.png)
+![MER](images/files/mer.png)
 
 Nesta etapa temos como objetivo replicar o modelo acima para que nosso cliente final tenha acesso, que será o Power BI. 
 
@@ -339,3 +339,49 @@ Cada etapa que definida no nosso código, agora podemos ter acesso a execução,
 ![DATAFLOW](images/data_flow/dataflow_graph.png)
 
 # Fase 5 - Visualização
+
+Nosso relatório temos basicamente 5 abas e menu inicial conforme abaixo, onde você pode acessar qualquer umas das abas e ter uma breve explicação sobre o tema.
+
+![MENU](images/power_bi/menu.png)
+
+Cada aba foi pensada na possibilidade que o usuário tenha controle na sua análise, seja com filtros, acesso entre as páginas e um visual pensado na experiência do usuário.
+
+Os filtros são retrátil, e pode ser selecioando o filtro ocultado, facilitando e aproveitado todo o espaço na tela.
+
+Segue conforme comentado acima o visual do filtro:
+
+![FILTRO](images/power_bi/filtro.png)
+
+Esse se encontra em todas abas e temos, um botão de borracha, que caso o usuário queira reiniciar sua análise com os filtros, basta ele clicar que irá remover todos os filtros. 
+
+Sobre as páginas segue um resumo:
+
+### Perfil Materno e Nascimentos
+
+Essa página contém o perfil das mães como faixa etária, escolaridade, média de idade, quantidade de nascidos e relação da idade e quantidade filhos vivo e morto.  
+
+![PAGINA_1](images/power_bi/pagina_1.png)
+
+### Ocupações e Localidades Maternas
+
+Essa página contém a quantidade de mães por ocupações, local de nascimento por região do Brasil e se possui vínculo empregatício.  
+
+![PAGINA_2](images/power_bi/pagina_2.png)
+
+### Estado Civil e Saúde Materna
+
+Essa página contém a distribuição de parto por raça das mães, total de parto, quantidade de parto vaginal,quantidade de parto cesária, quantidade de consultas do pré-natal e distribuição de por estado civil.
+
+![PAGINA_3](images/power_bi/pagina_3.png)
+
+### Distribuição Geográfica de Nascimentos
+
+Essa página quantidade de nascimento por mês, com a representação se está acima ou abaixo da média e distribuição de nascimentos por estado, com o diagrama de pareto. 
+
+![PAGINA_4](images/power_bi/pagina_4.png)
+
+### Local de Nascimentos por Região
+
+Essa página contém um gráfico por região com a quantidade de nascimentos por local de nascimento.  
+
+![PAGINA_5](images/power_bi/pagina_5.png)
